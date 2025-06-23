@@ -5,37 +5,41 @@ export default {
     { "language": "Rust", "proficiency": 80 },
     { "language": "Typescript", "proficiency": 80 },
     { "language": "C/C++", "proficiency": 75 },
-    { "language": "Bash", "proficiency": 50 },
+    { "language": "Nim", "proficiency": 50 },
     { "language": "Lua", "proficiency": 60 },
-    { "language": "Nix", "proficiency": 90 },
+    { "language": "Gleam", "proficiency": 90 },
   ],
   tools: {
     databases: [
       "PostgreSQL",
       "MariaDB",
       "Redis",
-      "Snowflake",
-      "ClickHouse"
+      "DuckDB",
+      "ClickHouse",
+      "PebbleDB"
     ],
     web: [
-      "Ruby / Rails",
-      "Elixir / Phoenix",
-      "Next JS",
-      "Tailwind"
+      "Ruby+Rails",
+      "Elixir+Phoenix",
+      "Next",
+      "Svelte",
+      "React",
+      "Solid"
     ],
     data_processing: [
-      "Ruby / Sidekiq",
-      "Elixir / Broadway",
-      "RabbitMQ",
-      "Rust / Polars",
+      "Ruby+Sidekiq",
+      "Elixir+Broadway",
+      "Kafka",
+      "Arrow",
+      "Spark",
+      "DuckLake"
     ],
     cloud_architecture: [
-      "Docker",
-      "Kubernetes",
-      "AWS",
-      "Airbrake",
+      "Docker/Podman",
+      "k8s/k3s",
+      "AWS/GCP",
       "Tailscale",
-      "ELK Stack"
+      "NixOS",
     ],
     other: [
       "Linux",
