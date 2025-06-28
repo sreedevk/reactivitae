@@ -39,8 +39,8 @@ export default function Home() {
           <Career />
         </div>
         <div className='w-full md:w-1/2 flex flex-wrap md:flex-col'>
-          <OpenSourceProjects />
           <Education />
+          <OpenSourceProjects />
         </div>
       </div>
       <div className='flex flex-col md:flex-row my-2'>
