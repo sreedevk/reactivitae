@@ -1,6 +1,6 @@
-# React-Vitae
+# Reactvitae
 
-React-Vitae is a React template for generating interactive resumes. Its name is a wordplay on "React" and "Curriculum Vitae" (resume), which accurately represents its purpose. With React-Vitae, you can easily create a stunning resume that showcases your skills and experience in an interactive way.
+Reactvitae is a React template for generating interactive resumes. Its name is a wordplay on "React" and "Curriculum Vitae" (resumé), which accurately describes the project. With Reactvitae, you can easily create a clean resume that showcases your skills and experience on an interactive page.
 
 ## Features
 
@@ -22,16 +22,16 @@ All the data required by the application is stored in the `src/data/` directory.
 
 Running the application locally is simple. Follow these steps:
 
-1. Install dependencies using `npm install`
-2. Start the development server using `npm run dev`
+1. Install dependencies using `npm install` or `bun install`
+2. Start the development server using `npm run dev` or `bun run dev`
 3. Once the server is up, visit `https://localhost:5173` in your browser (check stdout to find the port number)
 
 ### Hosting/Deployment
 
 React-Vitae comes with a Docker configuration that builds the application and hosts it using an Nginx container. Follow these steps to run the application using Docker:
 
-1. Build the Docker image using `docker-compose build`
-2. Start the container using `docker-compose up`
+1. Build the Docker image using `docker build . -t reactivitae:main`
+2. Start the container using `docker run -p 4000:80 reactivitae:latest`
 3. Once the container is up, visit `https://localhost:4000` in your browser
 
 That's it! With React-Vitae, creating an impressive resume is now easier than ever.
