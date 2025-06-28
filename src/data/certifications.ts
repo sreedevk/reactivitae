@@ -2,7 +2,7 @@ const certifications = [
   {
     organization: "Trinity College of London",
     certification: "Electronic Keyboard",
-    grade: "I"
+    grade: "Grade I"
   },
   {
     organization: "Federal Communications Commission (US)",

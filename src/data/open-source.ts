@@ -30,12 +30,12 @@ const openSourceProjects = [
     "forks": 0,
   },
   {
-    "name": "Fylorg",
+    "name": "OPDS TUI",
     "description":
-      "A smart file organizer that accepts a json format map to organize files based on keywords present in filenames.",
-    "tech_stack": "rust",
-    "url": "https://github.com/sreedevk/fylorg",
-    "stars": 0,
+      "A Terminal User Interface for Browsing Media Catalogs in the (O)pen (P)ublic (D)istribution (S)ystem Format.",
+    "tech_stack": "nim",
+    "url": "https://github.com/sreedevk/opdstui",
+    "stars": 1,
     "contributors": 1,
     "forks": 0,
   },
@@ -49,11 +49,11 @@ const openSourceProjects = [
     "forks": 7,
   },
   {
-    "name": "Aws-ssh",
+    "name": "Blaze SSH",
     "description":
-      "A CLI tool that let's you list,filter & ssh into aws ec2 instances fast",
-    "tech_stack": "bash, zsh, fzf & jq",
-    "url": "https://github.com/sreedevk/aws-ssh",
+      "A Configurable CLI tool that helps you ssh into aws ec2 instances with dynamic ip addresses, without leaving the terminal",
+    "tech_stack": "rust",
+    "url": "https://github.com/sreedevk/blaze-ssh",
     "stars": 13,
     "contributors": 2,
     "forks": 2,
