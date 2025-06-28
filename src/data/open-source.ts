@@ -10,11 +10,11 @@ export default [
     "forks": 13,
   },
   {
-    "name": "Reacti-Vitae",
+    "name": "Reactivitae",
     "description":
       "A React based resume builder that takes information in json format & converts it into a resume. This resume is a product of this project.",
     "tech_stack": "javascript, react & css",
-    "url": "https://github.com/sreedevk/reacti-vitae",
+    "url": "https://github.com/sreedevk/reactivitae",
     "stars": 1,
     "contributors": 1,
     "forks": 1,
