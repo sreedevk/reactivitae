@@ -1,4 +1,4 @@
-export default {
+const techStack = {
   languages: [
     { "language": "Ruby", "proficiency": 100 },
     { "language": "Elixir", "proficiency": 70 },
@@ -51,3 +51,5 @@ export default {
     ]
   }
 }
+
+export default techStack

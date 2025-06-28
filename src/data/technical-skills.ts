@@ -1,4 +1,4 @@
-export default [
+const technicalSkills = [
   "Object Oriented Design",
   "Functional Programming",
   "Database Design",
@@ -13,3 +13,5 @@ export default [
   "Technical Documentation",
   "Business Statistics",
 ]
+
+export default technicalSkills

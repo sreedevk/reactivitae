@@ -1,4 +1,4 @@
-export default [
+const social = [
   {
     name: "github",
     icon: "fas fa-code-branch",
@@ -18,3 +18,5 @@ export default [
     url: "https://sree.dev"
   },
 ]
+
+export default social

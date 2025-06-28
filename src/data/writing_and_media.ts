@@ -1,4 +1,4 @@
-export default {
+const writingAndMedia = {
   articles: [
     {
       title: "Building a Long Term Data Storage Solution",
@@ -28,3 +28,4 @@ export default {
   ]
 }
 
+export default writingAndMedia

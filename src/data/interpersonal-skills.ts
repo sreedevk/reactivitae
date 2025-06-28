@@ -1,4 +1,4 @@
-export default [
+const interpersonalSkills = [
   "Emotional Intelligence",
   "Excellent Leadership Abilities",
   "Team Building Skills",
@@ -9,3 +9,5 @@ export default [
   "Customer Focus",
   "Adaptability",
 ]
+
+export default interpersonalSkills

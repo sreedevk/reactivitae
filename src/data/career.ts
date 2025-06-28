@@ -1,4 +1,4 @@
-export default [
+const careerData = [
   {
     "name": "HousingMan",
     "location": "Bengaluru, IN.",
@@ -33,7 +33,7 @@ export default [
       "Published articles & blogs covering various topics such as digital signal processing, functional programming & low level programming"
     ],
     "stack":
-    "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
+      "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
     "start_date": "Jan, 2020",
     "end_date": "Oct, 2023",
     "designation": "Senior Software Engineer",
@@ -47,9 +47,11 @@ export default [
       "Assisted in ensuring accurate and efficient financial tracking and reporting for the organization",
     ],
     "stack":
-    "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
+      "Ruby/Rails, Elixir/Phoenix/Broadway, Redis, Postgresql, MariaDB, Javascript, Python, Docker, AWS",
     "start_date": "Oct, 2023",
     "end_date": "Present",
     "designation": "Senior Software Engineer",
   }
 ]
+
+export default careerData

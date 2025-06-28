@@ -1,4 +1,4 @@
-export default [
+const openSourceProjects = [
   {
     "name": "Deduplicator",
     "description":
@@ -88,4 +88,6 @@ export default [
     "contributors": 1,
     "forks": 0,
   }
-] 
+]
+
+export default openSourceProjects

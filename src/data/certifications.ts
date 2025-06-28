@@ -1,4 +1,4 @@
-export default [
+const certifications = [
   {
     organization: "Trinity College of London",
     certification: "Electronic Keyboard",
@@ -15,3 +15,5 @@ export default [
     grade: "General Class (VU2JWE)"
   }
 ]
+
+export default certifications

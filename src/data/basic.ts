@@ -1,4 +1,4 @@
-export default {
+const basicData = {
   name: {
     first: "Sreedev",
     last: "Kodichath"
@@ -28,3 +28,5 @@ export default {
     "Music"
   ]
 }
+
+export default basicData
