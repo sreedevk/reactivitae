@@ -8,7 +8,7 @@ RUN apk update
 RUN apk add --no-cache libc6-compat
 
 COPY ./package.json ./bun.lock ./
-COPY ./next.config.ts ./postcss.config.mjs ./
+COPY ./next.config.ts ./postcss.config.mjs ./tsconfig.json ./
 COPY ./public ./
 COPY ./src ./
 
