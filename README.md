@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React-Vitae
 
-## Getting Started
+React-Vitae is a React template for generating interactive resumes. Its name is a wordplay on "React" and "Curriculum Vitae" (resume), which accurately represents its purpose. With React-Vitae, you can easily create a stunning resume that showcases your skills and experience in an interactive way.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Responsive design that looks great on all devices
+2. Support for adding social media links, including LinkedIn, Twitter, GitHub, etc.
+3. Ability to showcase open-source projects with descriptions, and links.
+4. Fontawesome Icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All the data required by the application is stored in the `src/data/` directory. You can add your information to the relevant files in this directory. Once you have entered your details, running the application will generate a resume that looks like this:
 
-## Learn More
+<img src="https://user-images.githubusercontent.com/36154121/229708136-0790f98e-f803-4c04-a3e4-c99ca539ca95.png" alt="resume" width="200">
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Development
 
-## Deploy on Vercel
+Running the application locally is simple. Follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Install dependencies using `npm install`
+2. Start the development server using `npm run dev`
+3. Once the server is up, visit `https://localhost:5173` in your browser (check stdout to find the port number)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Hosting/Deployment
+
+React-Vitae comes with a Docker configuration that builds the application and hosts it using an Nginx container. Follow these steps to run the application using Docker:
+
+1. Build the Docker image using `docker-compose build`
+2. Start the container using `docker-compose up`
+3. Once the container is up, visit `https://localhost:4000` in your browser
+
+That's it! With React-Vitae, creating an impressive resume is now easier than ever.
