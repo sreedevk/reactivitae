@@ -6,7 +6,6 @@ const techStack = {
     { "language": "Typescript", "proficiency": 80 },
     { "language": "C/C++", "proficiency": 75 },
     { "language": "Nim", "proficiency": 50 },
-    { "language": "Lua", "proficiency": 60 },
     { "language": "Gleam", "proficiency": 90 },
   ],
   tools: {
@@ -35,19 +34,18 @@ const techStack = {
       "DuckLake"
     ],
     cloud_architecture: [
-      "Docker/Podman",
-      "k8s/k3s",
-      "AWS/GCP",
+      "Docker",
+      "Kubernetes",
       "Tailscale",
       "NixOS",
+      "OpenZFS",
     ],
     other: [
-      "Linux",
-      "Neovim",
       "WireShark",
       "Nmap",
-      "SystemD",
-      "OpenZFS"
+      "Systemd",
+      "Linux",
+      "FreeBSD",
     ]
   }
 }

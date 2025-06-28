@@ -1,5 +1,10 @@
 import TechStack from '../../data/tech-stack'
 import Title from './Title'
+import localFont from 'next/font/local'
+
+const highwayGothicFont = localFont({
+  src: "../assets/fonts/HighwayGothicRegular.ttf"
+})
 
 const skillFormatter = (skill: string, index: number) => {
   return (
@@ -10,7 +15,7 @@ const skillFormatter = (skill: string, index: number) => {
 const skillBlockFormatter = (skills: string[], title: string) => {
   return (
     <div className="w-1/2 md:w-2/12 px-4 text-center md:text-left">
-      <h3 className="underline font-bold my-2 uppercase font-highway-gothic text-rose-600">{title}</h3>
+      <h3 className={`underline font-bold my-2 uppercase ${highwayGothicFont.className} text-rose-600`}>{title}</h3>
       <ul className="text-sm">
         {skills.map(skillFormatter)}
       </ul>

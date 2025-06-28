@@ -21,7 +21,7 @@ const projectFormatter = (project: Project, index: number) => {
     <a href={project.url} className='w-full md:w-2/6 my-1 px-1' key={index}>
       <div className='hover:bg-rose-400 hover:text-white p-4'>
         <h2 className={`${staatlichesFont.className} text-xl`}>{project.name}</h2>
-        <p className='text-xs font-bold md:h-28 my-2'>{project.description}</p>
+        <p className='text-xs font-bold md:h-27 my-2'>{project.description}</p>
       </div>
     </a>
 

@@ -6,6 +6,10 @@ const staatlichesFont = localFont({
   src: "../assets/fonts/StaatlichesRegular.ttf"
 })
 
+const highwayGothicFont = localFont({
+  src: "../assets/fonts/HighwayGothicRegular.ttf"
+})
+
 type Company = {
   name: string,
   location: string,
@@ -42,7 +46,7 @@ const formatCompany = (company: Company, index: number) => {
       </div>
       <h4 className="mb-2 font-bold">{company.designation}</h4>
       <div className="text-xs">{formatSummary(company.summary)}</div>
-      <h3 className='text-sm flex flex-col font-bold my-2 font-highway-gothic'>
+      <h3 className={`text-sm flex flex-col font-bold my-2 ${highwayGothicFont.className}`}>
         <span className='text-gray-600'>Tech Stack:</span>
         <span className='text-rose-600 mx-2'>{company.stack}</span>
       </h3>

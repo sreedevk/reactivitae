@@ -51,7 +51,7 @@ export default function Home() {
         <WritingAndMedia />
         <Certifications />
         <div className='md:w-1/4 md:ml-6'>
-          <Image src={QRCode} alt="qr-code" fill={false} />
+          <Image src={QRCode} alt="qr-code" fill={false} width={450} className='my-4' />
         </div>
       </div>
     </div>
