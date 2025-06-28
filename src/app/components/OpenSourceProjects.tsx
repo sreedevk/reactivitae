@@ -1,5 +1,10 @@
-import OpenSourceProjectList from '../data/open-source'
-import Title from './shared/title'
+import OpenSourceProjectList from '../../data/open-source'
+import Title from './Title'
+import localFont from 'next/font/local'
+
+const staatlichesFont = localFont({
+  src: "../assets/fonts/StaatlichesRegular.ttf"
+})
 
 type Project = {
   name: string,
@@ -15,11 +20,11 @@ const projectFormatter = (project: Project, index: number) => {
   return (
     <a href={project.url} className='w-full md:w-2/6 my-1 px-1' key={index}>
       <div className='hover:bg-rose-400 hover:text-white p-4'>
-        <h2 className='font-staatliches text-xl'>{project.name}</h2>
+        <h2 className={`${staatlichesFont.className} text-xl`}>{project.name}</h2>
         <p className='text-xs font-bold md:h-28 my-2'>{project.description}</p>
       </div>
     </a>
-    
+
   )
 }
 

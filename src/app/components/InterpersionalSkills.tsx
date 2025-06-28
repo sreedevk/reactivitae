@@ -1,5 +1,5 @@
-import Title from "./shared/title"
-import InterpersonalSkillsList from '../data/interpersonal-skills'
+import Title from "./Title"
+import InterpersonalSkillsList from '../../data/interpersonal-skills'
 
 const interpersonalSkillFormatter = (skill: string, index: number) => {
   return (

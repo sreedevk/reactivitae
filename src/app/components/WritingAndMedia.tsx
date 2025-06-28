@@ -1,5 +1,5 @@
-import Title from "./shared/title"
-import WritingAndMediaList from '../data/writing_and_media'
+import Title from "./Title"
+import WritingAndMediaList from '../../data/writing_and_media'
 
 type Article = {
   title: string,
@@ -24,7 +24,7 @@ const dateSorter = (a: Article, b: Article) => {
 const WritingAndMedia = () => {
   return (
     <div className="w-full mr-2">
-      <Title title="Writing & Media" icon_class="fa-solid fa-photo-film" />    
+      <Title title="Writing & Media" icon_class="fa-solid fa-photo-film" />
       <div className="my-4">
         <ul>
           {WritingAndMediaList?.articles?.sort(dateSorter).map(articleFormatter)}

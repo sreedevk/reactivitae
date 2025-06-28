@@ -1,5 +1,5 @@
-import Title from "./shared/title"
-import CertificationList from '../data/certifications'
+import Title from "./Title"
+import CertificationList from '../../data/certifications'
 
 type Certification = {
   organization: string,
@@ -25,7 +25,7 @@ const Certifications = () => {
     <div className="w-full">
       <Title title="Certifications & Licenses" icon_class="fa-solid fa-certificate" />
       <div className="px-6">
-        { CertificationList.map(certificationFormatter) }
+        {CertificationList.map(certificationFormatter)}
       </div>
     </div>
   )

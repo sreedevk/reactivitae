@@ -1,4 +1,4 @@
-import BasicData from '../data/basic'
+import BasicData from '../../data/basic'
 
 const Contact = () => {
   return (

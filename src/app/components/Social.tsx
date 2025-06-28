@@ -1,4 +1,4 @@
-import SocialData from '../data/social'
+import SocialData from '../../data/social'
 
 type SocialMediaLink = {
   name: string,

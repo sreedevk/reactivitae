@@ -1,5 +1,5 @@
-import Title from "./shared/title"
-import BasicData from '../data/basic'
+import Title from "./Title"
+import BasicData from '../../data/basic'
 
 const languageFormatter = (language: { name: string, proficiency: number }, index: number) => {
   return (
@@ -13,9 +13,9 @@ const languageFormatter = (language: { name: string, proficiency: number }, inde
 const Languages = () => {
   return (
     <div>
-      <Title icon_class="fas fa-language" title="Languages"/>
+      <Title icon_class="fas fa-language" title="Languages" />
       <ul className="flex flex-wrap px-2 my-2">
-        { BasicData.languages.map(languageFormatter) }
+        {BasicData.languages.map(languageFormatter)}
       </ul>
     </div>
   )

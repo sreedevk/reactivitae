@@ -1,5 +1,10 @@
-import EducationDetails from '../data/education'
-import Title from './shared/title'
+import EducationDetails from '../../data/education'
+import Title from './Title'
+import localFont from 'next/font/local'
+
+const alataFont = localFont({
+  src: "../assets/fonts/AlataRegular.ttf"
+})
 
 type Education = {
   university: string,
@@ -16,7 +21,7 @@ const educationFormatter = (education: Education, index: number) => {
         <h2 className="font-bold text-lg">{education.degree}</h2>
         <h3 className='font-bold text-gray-500'>{education.year_of_completion}</h3>
       </div>
-      <h3 className='italic font-alata'>
+      <h3 className={`italic ${alataFont.className}`}>
         <span className='text-sm'>{education.university}</span>,
         <span className='text-sm text-rose-500 font-bold'>
           &nbsp;{education.location}

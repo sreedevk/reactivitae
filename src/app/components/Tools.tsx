@@ -1,5 +1,5 @@
-import TechStack from '../data/tech-stack'
-import Title from './shared/title'
+import TechStack from '../../data/tech-stack'
+import Title from './Title'
 
 const skillFormatter = (skill: string, index: number) => {
   return (
