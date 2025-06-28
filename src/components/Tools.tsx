@@ -1,9 +1,9 @@
 import TechStack from '../data/tech-stack'
 import Title from './shared/title'
 
-const skillFormatter = (skill: string) => {
+const skillFormatter = (skill: string, index: number) => {
   return (
-    <li className='my-1 font-bold'>{skill}</li>
+    <li className='my-1 font-bold' key={index}>{skill}</li>
   )
 }
 

@@ -7,9 +7,9 @@ type Certification = {
   grade: string
 }
 
-const certificationFormatter = (cert: Certification) => {
+const certificationFormatter = (cert: Certification, index: number) => {
   return (
-    <div className="my-1">
+    <div className="my-1" key={index}>
       <h3>
         <span className="font-bold text-md">{cert.certification}</span>
         <span className="text-xs italic font-boldtext-gray-500">&nbsp;{cert.grade}</span>

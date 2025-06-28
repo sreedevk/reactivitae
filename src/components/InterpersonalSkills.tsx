@@ -1,9 +1,9 @@
 import Title from "./shared/title"
 import InterpersonalSkillsList from '../data/interpersonal-skills'
 
-const interpersonalSkillFormatter = (skill: string) => {
+const interpersonalSkillFormatter = (skill: string, index: number) => {
   return (
-    <li className="my-1 text-sm font-bold"> <span className="text-rose-800">*</span> {skill}</li>
+    <li className="my-1 text-sm font-bold" key={index}> <span className="text-rose-800">*</span> {skill}</li>
   )
 }
 
@@ -13,12 +13,8 @@ const formatSkills = (skills: string[]) => {
   return Array.from(
     { length: Math.ceil(skills.length / chunkSize) },
     (_, index) => skills.slice(index * chunkSize, index * chunkSize + chunkSize))
-    .map(chunk => {
-      return (
-        <ul>
-          {chunk.map(interpersonalSkillFormatter) }
-        </ul>
-      )
+    .map((chunk, idx) => {
+      return <ul key={idx}>{chunk.map(interpersonalSkillFormatter)}</ul>
     })
 }
 

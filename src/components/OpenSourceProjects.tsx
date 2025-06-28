@@ -11,9 +11,9 @@ type Project = {
   forks: number,
 }
 
-const projectFormatter = (project: Project) => {
+const projectFormatter = (project: Project, index: number) => {
   return (
-    <a href={project.url} className='w-full md:w-2/6 my-1 px-1'>
+    <a href={project.url} className='w-full md:w-2/6 my-1 px-1' key={index}>
       <div className='hover:bg-rose-400 hover:text-white p-4'>
         <h2 className='font-staatliches text-xl'>{project.name}</h2>
         <p className='text-xs font-bold md:h-28 my-2'>{project.description}</p>

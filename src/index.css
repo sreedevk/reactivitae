@@ -3,46 +3,38 @@
 @tailwind utilities;
 
 @font-face {
-  src: local('Anton-Regular'), url(@/assets/fonts/Anton-Regular.ttf) format('truetype');
-  font-family: "anton";
+  src: local('GermaniaOneRegular'), url(@/assets/fonts/GermaniaOneRegular.ttf) format('truetype');
+  font-family: "GermaniaOne";
 }
 
 @font-face {
-  src: local('Staatliches-Regular'), url(@/assets/fonts/Staatliches-Regular.ttf) format('truetype');
-  font-family: "staatliches"; 
+  src: local('FamiljenGroteskRegular'), url(@/assets/fonts/FamiljenGroteskRegular.ttf) format('trutype');
+  font-family: "FamiljenGrotesk";
 }
 
 @font-face {
-  src: local('Alata-Regular'), url(@/assets/fonts/Alata-Regular.ttf) format('truetype');
-  font-family: "alata"; 
+  src: local('AntonRegular'), url(@/assets/fonts/AntonRegular.ttf) format('truetype');
+  font-family: "Anton";
 }
 
 @font-face {
-  src: local('Highway-Gothic'), url(@/assets/fonts/highway_gothic_regular.ttf) format('truetype');
-  font-family: 'highway-gothic';
+  src: local('StaatlichesRegular'), url(@/assets/fonts/StaatlichesRegular.ttf) format('truetype');
+  font-family: "Staatliches"; 
 }
 
 @font-face {
-  src: local('Vollkorn'), url(@/assets/fonts/Vollkorn-VariableFont_wght.ttf) format('truetype');
-  font-family: 'volkorn';
+  src: local('AlataRegular'), url(@/assets/fonts/AlataRegular.ttf) format('truetype');
+  font-family: "Alata"; 
 }
 
-.font-volkorn {
-  font-family: 'volkorn';
+@font-face {
+  src: local('HighwayGothicRegular'), url(@/assets/fonts/HighwayGothicRegular.ttf) format('truetype');
+  font-family: 'HighwayGothic';
 }
 
-.font-highway-gothic {
-  font-family: 'highway-gothic';
-}
-
-.font-alata {
-  font-family: "alata";
-}
-
-.font-anton {
-  font-family: "anton";
-}
-
-.font-staatliches {
-  font-family: "staatliches"; 
-}
+.font-germania-one { font-family: 'GermaniaOne' !important; }
+.font-familjen-grotesk { font-family: 'FamiljenGrotesk' !important; }
+.font-highway-gothic { font-family: 'HighwayGothic'; }
+.font-alata { font-family: "Alata"; }
+.font-anton { font-family: "Anton"; }
+.font-staatliches { font-family: "Staatliches"; }
