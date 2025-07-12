@@ -11,7 +11,7 @@ const Contact = () => {
       </li>
       <li>
         <span className='font-sans font-bold mx-2 '>
-          <a href={`mailto:${BasicData?.email}`}>{BasicData?.email}</a>
+          <a href={`mailto:${BasicData?.email?.raw}`}>{BasicData?.email?.display}</a>
         </span>
         <i className="fas fa-envelope text-rose-600 hidden md:inline-block"></i>
       </li>

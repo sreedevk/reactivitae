@@ -1,7 +1,7 @@
 # ./.tmuxinator.yml
 
-name: reactivitae
-root: ~/Data/repositories/reactivitae/
+name: www_resume_sree_dev
+root: ~/Data/repositories/www.resume.sree.dev/
 
 # Optional tmux socket
 # socket_name: foo

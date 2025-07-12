@@ -5,7 +5,10 @@ const basicData = {
   },
   designation: "Senior Software Engineer",
   phone: "+1 (929) 258-6975",
-  email: "sreedev@icloud.com",
+  email: { 
+    display: "hello [at] sree.dev",
+    raw: "hello@sree.dev"
+  },
   tagline: "Driving innovation through efficient engineering",
   address: {
     city: "Brooklyn",
