@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body className={`${alataRegularFont.className} antialiased`} >
         {children}
-        <Script strategy='afterInteractive' src="https://analytics.devtechnica.com/script.js" data-website-id="1b018bfd-7f5b-46d5-9aa4-76beb364d40b" />
+        <Script strategy='afterInteractive' src="https://analytics.devtechnica.com/script.js" data-website-id="1b018bfd-7f5b-46d5-9aa4-76beb364d40b" data-domains="resume.sree.dev,www.resume.sree.dev,sree.dev,www.sree.dev" />
       </body>
     </html>
   );
